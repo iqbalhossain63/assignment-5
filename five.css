@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+body{}
+header{
+    background: #333;
+    padding: 15px 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+nav {
+    text-align: center;
+}
+nav ul{
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+}
+nav ul li a:hover{
+	color: #81c03a;
+	background: #0f6188;
+}
+nav ul li a img{
+    width: 170px;
+}
+
+/*form-section css start*/
+.form-section{
+    padding: 50px 0;
+    background-image: url(image/hill.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+form{
+	width:600px;
+	margin: 0px 600px;
+	background: #c4cacc73;
+	padding: 30px;
+}
+input{
+    width: 100%;
+    border: 1px solid #ececec;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 6px;
+}
+select{
+    width: 100%;
+    border: 1px solid #9365c0;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 6px;
+}
+span{
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px 0 6px 0;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #9365c0;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 0px;
+    margin: 10px 0 6px 0;
+}
+label{
+    color: #fff;
+}
+ 
+input[type="radio"],input[type="checkbox"]{
+	width: auto;
+}
+
+.btn{
+	
+background: #86bf46;
+	
+color: white;
+	
+text-transform: uppercase;
+	
+font-weight: 600;
+}
+.btn:hover{
+	background: #9e5050;
+}
